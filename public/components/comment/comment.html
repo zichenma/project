@@ -1,0 +1,14 @@
+<div class="form-group">
+    <form>
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="cmt in comments track by $index"> {{ cmt }}
+                <a href="" ng-click="post_cmt($home)"><span class="glyphicon glyphicon-trash" style="color:red; float:right;"></span></a>
+            </li>
+        </ul>
+        <hr/>
+        <textarea class="form-control" rows="5" ng-model="cmtName" placeholder="Your Comment"></textarea>
+        <br/>
+        <button class="btn btn-success btn-md pull-right" ng-click='btn_post();'>Comment</button>
+        <br/>
+    </form> 
+</div>

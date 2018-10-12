@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="myBlog">
+<head>
+<meta charset="UTF-8">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Blog App using AngularJS</title> 
+</head>
+<body ng-app>
+<div class="container" ng-controller="mainCtr">
+    <h1 align="center">Simple Blog App using AngularJS</h1>
+    <hr/>
+    <ng-view></ng-view>
+</div>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+<script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+<script type="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="components/comment/comment.js"></script>
+</body>
+</html>
